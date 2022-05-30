@@ -1,19 +1,18 @@
 .place__link {
-    margin: 0;
-    font-size: 18px;
-    line-height: 1.22;
-    font-weight: 400;
-    color: #fff;
-    transition: 0.5s ease-in-out;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+  font-weight: 400;
+  color: #fff;
+  transition: 0.5s ease-in-out;
 }
 
 .place__link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
-@media (max-width: 320px) {
-    .place__link {
-        max-width: 288px;
-        
-    }
+@media (max-width: 600px) {
+  .place__link {
+    max-width: 288px;
+  }
 }

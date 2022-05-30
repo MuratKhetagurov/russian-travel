@@ -1,11 +1,9 @@
 .place__text-area {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-@media (max-width: 320px) {
-
-    .place__text-area {
-        margin-left: 16px;
-    }
-    
+@media (max-width: 600px) {
+  .place__text-area {
+    margin-left: 16px;
+  }
 }
