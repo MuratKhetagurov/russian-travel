@@ -1,0 +1,11 @@
+.place__text-area {
+    max-width: 100%;
+}
+
+@media (max-width: 320px) {
+
+    .place__text-area {
+        margin-left: 16px;
+    }
+    
+}

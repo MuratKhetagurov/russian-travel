@@ -1,0 +1,6 @@
+.header__lang-list {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    
+}
