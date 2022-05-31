@@ -12,13 +12,13 @@
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 687px) and (max-width: 900px) {
   .footer {
     max-width: calc(100% - 48px);
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 686px) {
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;

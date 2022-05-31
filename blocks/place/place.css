@@ -11,14 +11,14 @@
 
 @media (min-width: 901px) and (max-width: 1200px) {
   .place {
-    grid-template-columns: minmax(440px, 440px) minmax(456px, 456px);
+    grid-template-columns: 1fr 1fr;
     gap: 48px 32px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
   .place {
-    grid-template-columns: minmax(340px, 340px) minmax(352px, 352px);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 48px 28px;
     margin-bottom: 72px;
   }

@@ -8,10 +8,10 @@
   max-width: 720px;
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 768px) {
   .lead__title {
     max-width: 720px;
-    font-size: 96px;
+    font-size: 12.5vw;
     margin: 0 auto 32px;
   }
 }

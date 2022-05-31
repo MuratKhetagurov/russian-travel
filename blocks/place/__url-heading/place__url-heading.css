@@ -10,6 +10,7 @@
 
 @media (max-width: 600px) {
   .place__url-heading {
-    max-width: 288px;
+    width: calc(100% - 32px);
+    margin: 0 auto 12px;
   }
 }

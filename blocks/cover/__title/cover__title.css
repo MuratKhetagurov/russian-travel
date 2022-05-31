@@ -9,6 +9,13 @@
   margin-bottom: 32px;
 }
 
+@media (min-width: 426px) and (max-width: 750px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
 @media (max-width: 600px) {
   .cover__title {
     font-size: 32px;

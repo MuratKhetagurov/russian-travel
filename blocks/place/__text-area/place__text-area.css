@@ -4,6 +4,7 @@
 
 @media (max-width: 600px) {
   .place__text-area {
-    margin-left: 16px;
+    width: calc(100% - 32px);
+    margin: 0 auto;
   }
 }

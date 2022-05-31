@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 686px) {
   .footer__copyright {
     line-height: 1;
     text-align: left;
