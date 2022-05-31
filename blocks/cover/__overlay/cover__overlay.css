@@ -1,5 +1,5 @@
 .cover__overlay {
-  padding-top: 62.5%;
+  min-height:calc((740/1184) * min(1184px, 100vw));
   max-width: 100%;
   text-decoration: none;
   display: flex;
